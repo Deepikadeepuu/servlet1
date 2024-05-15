@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.MovieDao;
 
-@WebServlet("/fetch-movie-id")
+@WebServlet("/fetch-movies-id")
 public class FetchMovieById extends HttpServlet {
 @Override
 protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

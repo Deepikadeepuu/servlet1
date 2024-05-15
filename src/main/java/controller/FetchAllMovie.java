@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.MovieDao;
 
-@WebServlet("/fetch-movie")
+@WebServlet("/fetch-movies")
 public class FetchAllMovie extends HttpServlet {
 
 	@Override

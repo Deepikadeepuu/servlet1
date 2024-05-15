@@ -14,7 +14,7 @@ import dao.MovieDao;
 
 import dto.Moviedto;
 
-@WebServlet("/insert-movie")
+@WebServlet("/insert")
 @MultipartConfig
 public class InsertMovie extends HttpServlet {
 

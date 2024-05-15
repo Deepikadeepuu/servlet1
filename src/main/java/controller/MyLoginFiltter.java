@@ -10,7 +10,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 
-@WebFilter({"/fetch-movies","/delete-movie","/edit-movie","/fetch-movie-rating","/fetch-movie-genre","/fetch-movie-id","/fetch-movie-language","/fetch-movie-name","/insert-movie",})
+@WebFilter({"/fetch-movies","/delete-movie","/edit-movie","/fetch-movies-rating","/fetch-movies-genre","/fetch-movies-id","/fetch-movies-language","/fetch-movies-name","/insert-movie",})
 public class MyLoginFiltter implements Filter
 {
 

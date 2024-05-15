@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/fetch-movie-name")
+@WebServlet("/fetch-movies-name")
 public class FetchMovieByName extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -24,7 +24,7 @@ public class FetchMovieByName extends HttpServlet {
 			MovieDao dao= new MovieDao();
 			List<MovieDao> list=dao.FetchMovieByName(name);
 			if(list.isEmpty()) {
-				resp.getWriter().print("<h1 style='color:red' align='center'>No Movies Found</h1>");
+				resp.getWriter().print("<h1 style='color:red' align='center'>No Movies Name is Found</h1>");
 				req.getRequestDispatcher("home.html").include(req, resp);
 				
 			}else {
