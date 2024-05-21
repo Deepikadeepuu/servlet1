@@ -23,6 +23,8 @@
 				<option>Kannada</option>
 				<option>English</option>
 				<option>Hindi</option>
+				<option>Telgu</option>
+				<option>Tamil</option>
 			</select><br> Rating: <input type="text" name="rating" value="<%=movie.getRating()%>"><br>
 			Image: <input type="file" name="picture"> <img height="75px"
 				width="75px" alt="<%=movie.getName()%>"
@@ -33,6 +35,8 @@
 				<option>Comedy</option>
 				<option>Action</option>
 				<option>Thriller</option>
+					<option>Romantic</option>
+						<option>Fighting</option>
 			</select><br> <br>
 			<button>Update</button>
 		</form>
